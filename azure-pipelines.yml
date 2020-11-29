@@ -24,4 +24,4 @@ steps:
       -projectName princepipeline
       --linkedTemplateUri https://raw.githubusercontent.com/princed1981/princepipeline/main/CreateWebApp/linkedStorageAccount.json
     deploymentMode: 'Incremental'
-    deploymentName: 'Deploy Pipeline Template'
+    deploymentName: 'DeployPipelineTemplate'
