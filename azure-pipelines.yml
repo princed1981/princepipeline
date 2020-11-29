@@ -21,7 +21,7 @@ steps:
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
     overrideParameters: |
-      -projectName princepipelin
-      --linkedTemplateUri https://raw.githubusercontent.com/princed1981/princepipeline/main/CreateWebApp/linkedStorageAccount.json
+      -projectName princepipelines
+      -linkedTemplateUri https://raw.githubusercontent.com/princed1981/princepipeline/main/CreateWebApp/linkedStorageAccount.json
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplates'
